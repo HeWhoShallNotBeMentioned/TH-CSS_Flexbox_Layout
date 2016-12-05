@@ -6,12 +6,39 @@
 .container {
 	display: flex;
 	flex-wrap: wrap;
+	height: 450px;
+}
+
+/*.item {
+	flex: 1;
+}
+
+.item-1 {
+	align-self: flex-end;
+}
+
+.item-4 {
+	align-self: flex-start;
+}
+
+.item-3 {
+	align-self: center;
+}*/
+
+.container2 {
+	display: flex;
+	height: 450px;
+	/*min-height: 20vh;*/
+
+	/*justify-content: center; for 2nd way*/
+	/*first way to center the item vertically and horizontally
+	justify-content: center;
+	align-items:center;*/
 }
 
 .item {
-flex: 1 200px;
-}
-
-.item-2 {
-	flex-grow:2;
+	/*2nd way is to have justify content above and align-self here */
+	/*align-self:center;*/
+	/*3rd way is item margin to auto*/
+	margin: auto;
 }

@@ -1,4 +1,4 @@
-/* ================================= 
+/* =================================
   Page Styles
 ==================================== */
 
@@ -17,7 +17,8 @@ p {
 	font-size: 15px;
 	line-height: 1.5;
 }
-.container {
+.container,
+.container2 {
 	margin: 45px auto;
 	padding: 10px;
 	background: #fff;
@@ -27,7 +28,7 @@ p {
 .item {
 	color: #fff;
 	padding: 15px;
-	margin: 5px;	
+	margin: 5px;
 	background: #3db5da;
 	border-radius: 3px;
 }
